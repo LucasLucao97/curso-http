@@ -1,10 +1,28 @@
-![Integrando seu projeto React com APIs](thumbnail.png)
+# Curso de HTTP: entendendo a web por baixo dos panos
+
+## O objetivo desse curso de Automação e Performance é:
+<p>
+    - Compreender a arquitetura e os conceitos fundamentais do protocolo HTTP
+    - Implementar o HTTPS para proteger os dados de uma aplicação durante a comunicação na web
+    - Explorar os principais avanços trazidos pelo HTTP/2 e HTTP/3 para otimizar a performance
+    - Desvendar os componentes das mensagens HTTP, como requisições, respostas e cabeçalhos
+    - Entender o que são URLs e domínios na web
+</p>
 
 # AluraBooks
+O AluraBooks é o projeto utilizado durante toda a formação, e essa API será utilizada em vários cursos diferentes.
 
 O AluraBooks é uma loja virtual que vende livros da Casa do Código. 
 É um MVP que tá só começando e ainda tem muitas funcionalidades novas para serem desenvolvidas.
 
+#Front-end:
+## 🛠️ Abrir e rodar o projeto
+
+Para abrir e rodar o projeto, execute `npm i` para instalar as dependências e `npm start` para inicar o projeto.
+
+Depois, acesse <a href="http://localhost:3000/">http://localhost:3000/</a> no seu navegador.
+
+#Back-end
 # JSONServer + JWT Auth
 
 Essa é ma API Rest mockada, utilizando json-server e JWT.
@@ -24,7 +42,6 @@ POST http://localhost:8000/public/registrar
 ```
 
 Com os seguintes dados:
-
 
 ```
 {
@@ -49,7 +66,6 @@ POST http://localhost:8000/public/login
 
 Com os seguintes dados:
 
-
 ```
 {
   "email": "vinicios@alura.com.br",
@@ -73,7 +89,3 @@ E então, adicionar este mesmo token ao header das próximas requisições:
 ```
 Authorization: Bearer <ACCESS_TOKEN>
 ```
-
-## 📚 Mais informações do curso
-
-O AluraBooks é o projeto utilizado durante toda a formação, e essa API será utilizada em vários cursos diferentes :)
